@@ -1,19 +1,22 @@
 {
-    "name": "mycoolcomponent",
+    "name": "@offcarlospetit/mycoolrepo",
     "version": "1.0.0",
     "description": "",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "rollup": "rollup -c"
     },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/offcarlospetit"
+    },
     "keywords": [],
-    "author": "",
     "license": "ISC",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "files": [
         "dist"
     ],
+    "author": "Carlos Petit <ca.alberto.p@gmail.com>",
     "types": "dist/index.d.ts",
     "devDependencies": {
         "@rollup/plugin-commonjs": "^22.0.0",
