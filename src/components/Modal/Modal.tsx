@@ -1,5 +1,5 @@
 import React from "react";
-import './Modal.css'
+// import './Modal.css'
 export interface ButtonProps {
   label: string;
 }
